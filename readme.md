@@ -1,4 +1,4 @@
-# Software Design Patterns for Junior Python Programmers
+# Software Design Patterns
 
 This repository contains a collection of common software design patterns implemented in Python, specifically tailored for mentoring junior programmers. Each pattern is presented with a simple, workable code example and a deeper explanation of its purpose, structure, and application.
 
