@@ -1,6 +1,6 @@
 # Software Design Patterns for Junior Python Programmers
 
-This repository contains a collection of common software design patterns implemented in Python, specifically tailored for junior programmers. Each pattern is presented with a simple, workable code example and a deeper explanation of its purpose, structure, and application.
+This repository contains a collection of common software design patterns implemented in Python, specifically tailored for mentoring junior programmers. Each pattern is presented with a simple, workable code example and a deeper explanation of its purpose, structure, and application.
 
 ## What are Design Patterns?
 
@@ -142,7 +142,12 @@ The Factory Method pattern defines a `factory_method` in a `Creator` class (whic
 *   The `factory_method` can be parameterized to create different types of products based on input.
 
 
+**What is ABC?**
+*   ABC is a helper class that provides a way to define abstract base classes in Python. An abstract base class is a class that:
 
+- Cannot be instantiated directly - you can't create objects from it
+- Defines a contract - it specifies what methods subclasses must implement
+- Serves as a template - subclasses must inherit from it and implement all abstract methods
 
 ### Builder Pattern
 
